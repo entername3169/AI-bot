@@ -8,15 +8,12 @@ bot = commands.Bot(command_prefix='-', intents=intents)
 
 @bot.event
 async def on_ready():
-    print(f'{bot.user} olarak giriş yaptık')
+    print(f'we haf saynd in az{bot.user}')
 
 @bot.command()
 async def hello(ctx):
     await ctx.send(f'hi nigg-')
 
-@bot.command()
-async def heh(ctx, count_heh = 5):
-    await ctx.send("he" * count_heh)
 
 @bot.command()
 async def img(ctx):
@@ -90,4 +87,4 @@ async def img(ctx):
 
 
 
-bot.run("MTEyODM2Mzg2ODg2ODA1OTE5Ng.G7XZmA.dr7EsTt8jQHqfWNx71BVfIgAb5XBtcC_96mt8M")
+bot.run("MTEyODM2Mzg2ODg2ODA1OTE5Ng.GdCkJh.hJWXi-s9usNgJ-88Qy3hESjruqc-NSykGkvp9I")
